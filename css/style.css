@@ -1,0 +1,54 @@
+a {
+    color: #2d3c49;
+}
+a:hover {
+    color: #06121b
+}
+p {
+    color: #7d97ad
+}
+.border-line {
+    border-bottom: 4px solid #7d97ad;
+}
+body {
+    background-color: rgba(168, 168, 168, 0.041);
+}
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 70%;
+    }
+    .mainpic {
+        width: 100%;
+    }
+    #info {
+        margin-left: 0 rem;
+        padding-left: 0 rem;
+        font-size: 3.0rem;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .logo {
+        width: 30%;
+    }
+    .mainpic {
+        width: 80%;
+    }
+    #info {
+        margin-left: 0.25rem;
+        padding-left: 0.25rem;
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .logo {
+        width: 15%;
+    }
+    .mainpic {
+        width: 40%;
+    }
+    #info {
+        margin-left: 5.5rem;
+        padding-left: 1.0rem;
+    }
+}
